@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include android:id="@+id/toolbar"
+    layout="@layout/toolbar"></include>
+
+    <com.devoligastudio.chat.helper.SlidingTabLayout
+        android:id="@+id/sli_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.devoligastudio.chat.helper.SlidingTabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_pagina"
+        android:layout_width="408dp"
+        android:layout_height="637dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/sli_tab"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"></androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

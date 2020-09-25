@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+
+    >
+
+<item android:id="@+id/action_contato"
+    android:title="Contatos"
+
+    >
+    </item>
+    >
+    <item android:id="@+id/action_sair"
+        android:title="sair"
+
+        >
+    </item>
+    <item android:id="@+id/criar_room"
+        android:title="Criar Sala"
+
+        >
+    </item>
+
+    <item android:id="@+id/pesquisa" app:showAsAction="ifRoom"
+       android:icon="@drawable/ic_search_black_24dp"
+
+        android:title="Pesquisa">
+    </item>
+-->
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307422964207",
+    "firebase_url": "https://chat-f16a5.firebaseio.com",
+    "project_id": "chat-f16a5",
+    "storage_bucket": "chat-f16a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307422964207:android:61903d5a764045b7f8ae1a",
+        "android_client_info": {
+          "package_name": "com.devoligastudio.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307422964207-9764keb3aee017cpamdq60vgvp0n34gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devoligastudio.chat",
+            "certificate_hash": "f5246f3f7aec35c8a454529775b82c9d484b2232"
+          }
+        },
+        {
+          "client_id": "307422964207-j036s93gki524g67o9i4g547qcgplo8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1ftdwS50Bda0BcHhpEfHATYpK0cuX_Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307422964207-j036s93gki524g67o9i4g547qcgplo8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
